@@ -1,0 +1,4 @@
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.Properties.Resources.resources
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.csproj.GenerateResource.cache
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.csproj.CoreCompileInputs.cache
