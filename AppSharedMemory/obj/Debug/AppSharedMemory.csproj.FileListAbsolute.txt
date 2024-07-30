@@ -45,3 +45,5 @@ C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\AppSha
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\AppSharedMemory\bin\Debug\Microsoft.Net.Http.Headers.dll
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\AppSharedMemory\bin\Debug\System.Text.Encodings.Web.dll
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\AppSharedMemory\bin\Debug\WCF.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\AppSharedMemory\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\AppSharedMemory\obj\Debug\AppSharedMemory.frmCategorie.resources

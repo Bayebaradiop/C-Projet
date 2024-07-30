@@ -40,3 +40,4 @@ C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\Metier
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\MetierSharedMemory\bin\Microsoft.Net.Http.Headers.dll
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\MetierSharedMemory\bin\System.Text.Encodings.Web.dll
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\MetierSharedMemory\bin\WCF.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\MetierSharedMemory\bin\Microsoft.Extensions.DependencyInjection.dll

@@ -43,31 +43,16 @@ namespace AppSharedMemory
 
         }
 
-
-        public List<Jury> servGetListJury()
-        {
-            HttpClient client;
-            client = new HttpClient();
-            var services = new List<Jury>();
-            client.BaseAddress = new Uri(System.Configuration.ConfigurationSettings.AppSettings["ServeurApiUrl"]);
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            var response = client.GetAsync("appShared/values/GetListJury").Result;
-
-            if (response.IsSuccessStatusCode)
-            {
-                var responseData = response.Content.ReadAsStringAsync().Result;
-                services = JsonConvert.DeserializeObject<List<Jury>>(responseData);
-            }
-            return services;
-        }
-
-
         private void dgJury_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
 
+        /// <summary>
+        /// Cette methode permet d'ajouter un jury via le bouton ajouter du formulaire
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAjouter_Click(object sender, EventArgs e)
         {
             ServiceMetier.Jury jury = new ServiceMetier.Jury();
@@ -79,7 +64,9 @@ namespace AppSharedMemory
             Effacer();
         }
 
-
+        /// <summary>
+        /// cette methode permet de vider les champs des textBox
+        /// </summary>
 
 
         public void Effacer()
@@ -90,6 +77,71 @@ namespace AppSharedMemory
             txtSpecialite.Text = string.Empty;
             dgJury.DataSource = serv.GetJurys();
             txtNom.Focus();
+        }
+
+
+        /// <summary>
+        /// Cette methode permet de modifier un jury via le bouton modifier
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+
+        private void btnModifier_Click(object sender, EventArgs e)
+        {
+            if (dgJury.CurrentRow != null)
+            {
+                if (int.TryParse(dgJury.CurrentRow.Cells[2].Value?.ToString(), out int idPersonne))
+                {
+                    ServiceMetier.Jury jury = new ServiceMetier.Jury
+                    {
+                        IdPersonne = idPersonne,
+                        Nom = txtNom.Text,
+                        Prenom = txtPrenom.Text,
+                        Grade = txtGrade.Text,
+                        Specialite = txtSpecialite.Text
+                    };
+                    serv.EditJury(jury);
+                    Effacer();
+                }
+                else
+                {
+                    MessageBox.Show("L'ID de la personne est invalide.");
+                }
+            }
+        }
+
+        /// <summary>
+        /// cette methode permet de selectionner les donnees du tableau et les mettent respectivement  dans les textBox
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnSelectionner_Click(object sender, EventArgs e)
+        {
+            txtNom.Text = dgJury.CurrentRow.Cells[3].Value.ToString();
+            txtPrenom.Text = dgJury.CurrentRow.Cells[4].Value.ToString();
+            txtGrade.Text = dgJury.CurrentRow.Cells[0].Value.ToString();
+            txtSpecialite.Text = dgJury.CurrentRow.Cells[1].Value.ToString();
+        }
+
+        /// <summary>
+        /// cette methode permet de supprimer un jury via le bouton supprimer
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnSupprimer_Click(object sender, EventArgs e)
+        {
+            if (dgJury.CurrentRow != null)
+            {
+                if (int.TryParse(dgJury.CurrentRow.Cells[2].Value?.ToString(), out int juryId))
+                {
+                    serv.DeleteJury(juryId);
+                    Effacer();
+                }
+                else
+                {
+                    MessageBox.Show("L'ID de la personne est invalide.");
+                }
+            }
         }
     }
 }

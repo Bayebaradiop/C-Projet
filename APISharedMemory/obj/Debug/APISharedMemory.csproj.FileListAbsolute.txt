@@ -97,3 +97,13 @@ C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISha
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\EntityFramework.SqlServer.dll
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\EntityFramework.xml
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\EntityFramework.SqlServer.xml
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\APISharedMemory\bin\System.Threading.Tasks.Extensions.xml

@@ -2,3 +2,16 @@ C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\Client
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.Properties.Resources.resources
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.csproj.GenerateResource.cache
 C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\bin\Debug\ClientApi.exe.config
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\bin\Debug\ClientApi.exe
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\bin\Debug\ClientApi.pdb
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.Form1.resources
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.csproj.Up2Date
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.exe
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\obj\Debug\ClientApi.pdb
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dell\Desktop\revision_exam_c#_2eme_semestre\SolutionSharedMemory\ClientApi\bin\Debug\System.Threading.Tasks.Extensions.dll

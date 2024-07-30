@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0uU+udlkJMCs5N2oxWtFqz4CsUqkDo5WMd7uykGJyaT/lHAQNEVzZ7L9RuoiGg45e+7pIAStsKsuIBIPhXA9gA==",
+  "dgSpecHash": "wL/Z6SH1+RrRv3qtK/gJXZfm4TgQHNBYeKO7FMuyu0+GmTMpWdtfN6wK59Qacjzkr5kFSlMXo3SkH3o+8b+m5Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\dell\\Desktop\\revision_exam_c#_2eme_semestre\\SolutionSharedMemory\\MetierSharedMemory\\MetierSharedMemory.csproj",
   "expectedPackageFiles": [
@@ -15,8 +15,9 @@
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.1.21\\microsoft.aspnetcore.http.extensions.2.1.21.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.1.1\\microsoft.aspnetcore.http.features.2.1.1.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.1.1\\microsoft.aspnetcore.webutilities.2.1.1.nupkg.sha512",
-    "C:\\Users\\dell\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
-    "C:\\Users\\dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.1\\microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.1.1\\microsoft.extensions.fileproviders.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.extensions.objectpool\\2.1.1\\microsoft.extensions.objectpool.2.1.1.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.extensions.options\\2.1.1\\microsoft.extensions.options.2.1.1.nupkg.sha512",

@@ -38,15 +38,18 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnSupprimer = new System.Windows.Forms.Button();
+            this.btnModifier = new System.Windows.Forms.Button();
+            this.btnSelectionner = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgJury)).BeginInit();
             this.SuspendLayout();
             // 
             // dgJury
             // 
             this.dgJury.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgJury.Location = new System.Drawing.Point(248, 4);
+            this.dgJury.Location = new System.Drawing.Point(310, 4);
             this.dgJury.Name = "dgJury";
-            this.dgJury.Size = new System.Drawing.Size(550, 434);
+            this.dgJury.Size = new System.Drawing.Size(488, 434);
             this.dgJury.TabIndex = 0;
             this.dgJury.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgJury_CellContentClick);
             // 
@@ -61,7 +64,7 @@
             // 
             // btnAjouter
             // 
-            this.btnAjouter.Location = new System.Drawing.Point(92, 356);
+            this.btnAjouter.Location = new System.Drawing.Point(1, 356);
             this.btnAjouter.Margin = new System.Windows.Forms.Padding(2);
             this.btnAjouter.Name = "btnAjouter";
             this.btnAjouter.Size = new System.Drawing.Size(91, 29);
@@ -137,11 +140,47 @@
             this.label1.TabIndex = 17;
             this.label1.Text = "Prenom";
             // 
+            // btnSupprimer
+            // 
+            this.btnSupprimer.Location = new System.Drawing.Point(213, 353);
+            this.btnSupprimer.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSupprimer.Name = "btnSupprimer";
+            this.btnSupprimer.Size = new System.Drawing.Size(88, 32);
+            this.btnSupprimer.TabIndex = 19;
+            this.btnSupprimer.Text = "Supprimer";
+            this.btnSupprimer.UseVisualStyleBackColor = true;
+            this.btnSupprimer.Click += new System.EventHandler(this.btnSupprimer_Click);
+            // 
+            // btnModifier
+            // 
+            this.btnModifier.Location = new System.Drawing.Point(106, 353);
+            this.btnModifier.Margin = new System.Windows.Forms.Padding(2);
+            this.btnModifier.Name = "btnModifier";
+            this.btnModifier.Size = new System.Drawing.Size(88, 32);
+            this.btnModifier.TabIndex = 18;
+            this.btnModifier.Text = "Modifier";
+            this.btnModifier.UseVisualStyleBackColor = true;
+            this.btnModifier.Click += new System.EventHandler(this.btnModifier_Click);
+            // 
+            // btnSelectionner
+            // 
+            this.btnSelectionner.Location = new System.Drawing.Point(213, 4);
+            this.btnSelectionner.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSelectionner.Name = "btnSelectionner";
+            this.btnSelectionner.Size = new System.Drawing.Size(88, 32);
+            this.btnSelectionner.TabIndex = 20;
+            this.btnSelectionner.Text = "Sélectionner";
+            this.btnSelectionner.UseVisualStyleBackColor = true;
+            this.btnSelectionner.Click += new System.EventHandler(this.btnSelectionner_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSelectionner);
+            this.Controls.Add(this.btnSupprimer);
+            this.Controls.Add(this.btnModifier);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAjouter);
             this.Controls.Add(this.txtGrade);
@@ -153,7 +192,7 @@
             this.Controls.Add(this.txtPrenom);
             this.Controls.Add(this.dgJury);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "frmCategorie";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgJury)).EndInit();
             this.ResumeLayout(false);
@@ -173,6 +212,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnSupprimer;
+        private System.Windows.Forms.Button btnModifier;
+        private System.Windows.Forms.Button btnSelectionner;
     }
 }
 
